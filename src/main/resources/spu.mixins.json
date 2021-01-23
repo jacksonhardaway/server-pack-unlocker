@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.jaackson.spu.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ClientBuiltinResourcePackProviderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
