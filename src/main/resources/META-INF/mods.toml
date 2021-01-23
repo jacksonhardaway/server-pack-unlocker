@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[33,)"
+license="Public Domain"
+issueTrackerURL="https://github.com/JacksonPlayz/server-pack-unlocker/issues"
+[[mods]]
+modId="spu"
+version="${file.jarVersion}"
+displayName="Server Pack Unlocker"
+authors="Jackson"
+logoFile="logo.png"
+description='''Allows resource packs provided by servers to be overridden and moved.'''
+[[dependencies.spu]]
+    modId="forge"
+    mandatory=true
+    versionRange="[33,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.spu]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.2,)"
+    ordering="NONE"
+    side="BOTH"

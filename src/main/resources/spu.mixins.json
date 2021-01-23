@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.jaackson.spu.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "spu.refmap.json",
+  "client": [
+    "DownloadingPackFinderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
