@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "spu",
+  "id": "server-pack-unlocker",
   "version": "${version}",
   "name": "Server Pack Unlocker",
   "description": "Allows resource packs provided by servers to be overridden and moved.",
@@ -8,17 +8,16 @@
     "Jackson"
   ],
   "contact": {
-    "homepage": "https://github.com/JacksonPlayz/server-pack-unlocker",
-    "issues": "https://github.com/JacksonPlayz/server-pack-unlocker/issues"
+    "homepage": "https://github.com/jaacksondev/server-pack-unlocker",
+    "issues": "https://github.com/jaacksondev/server-pack-unlocker/issues"
   },
-  "license": "Public Domain",
+  "license": "GPLv3",
   "icon": "assets/spu/icon.png",
   "environment": "client",
   "mixins": [
-    "spu.mixins.json"
+    "server-pack-unlocker.mixins.json"
   ],
   "depends": {
-    "fabricloader": "*",
-    "minecraft": ">=1.16.2"
+    "minecraft": ">=1.19.2"
   }
 }

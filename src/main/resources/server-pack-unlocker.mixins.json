@@ -1,12 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.jaackson.spu.mixin",
+  "package": "me.jaackson.serverpackunlocker.mixin",
   "compatibilityLevel": "JAVA_8",
   "client": [
-    "ClientBuiltinResourcePackProviderMixin"
+    "ClientPackSourceMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "mixins": [
+    "PackAccessor"
+  ]
 }
